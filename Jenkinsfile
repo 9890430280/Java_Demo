@@ -21,7 +21,13 @@ pipeline{
                     echo"All pipeline triggerd succesfully"
                 }
             }
+            stage("Failure"){
+                steps{
+                    echo"All pipeline becomes failure"
+                }
+            }
         }
     
 }
+
 
