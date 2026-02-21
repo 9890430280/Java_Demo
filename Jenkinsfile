@@ -16,6 +16,12 @@ pipeline{
                     echo"Deploy stage execute succesfully"
                 }
             }
+            stage("Succesfully"){
+                steps{
+                    echo"All pipeline triggerd succesfully"
+                }
+            }
         }
     
 }
+
