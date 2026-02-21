@@ -8,9 +8,13 @@ class Java1
          System.out.println("Hello Kunal");
         System.out.println("Hello Sujit");
         System.out.println("Hello Ghogaales");
+         System.out.println("Hello Kunal");
+        System.out.println("Hello Sujit");
+        System.out.println("Hello Ghogaales");
     }
 
 }
+
 
 
 
