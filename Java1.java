@@ -7,9 +7,11 @@ class Java1
        System.out.println("Hello Ghogale's");
         System.out.println("Hello Collegue's Now i also learn hoe to trigger jobs in jenkins using git");
         System.out.println("Hello Dell");
+        System.out.println("Today is weekend");
     }
 
 }
+
 
 
 
