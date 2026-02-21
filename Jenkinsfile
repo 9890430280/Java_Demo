@@ -12,16 +12,17 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Compiling Java code..."
-                bat 'javac JavaApp.java'
+                bat 'javac Java1.java'
             }
         }
 
         stage('Run') {
             steps {
                 echo "Running Java program..."
-                bat 'java JavaApp'
+                bat 'java Java1'
             }
         }
 
     }
 }
+
