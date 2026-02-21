@@ -1,4 +1,4 @@
-public class JavaApp {
+public class Java1 {
     public static void main(String[] args) {
         System.out.println("Hello Kunal!");
         System.out.println("Jenkins CI Pipeline Demo");
@@ -6,5 +6,6 @@ public class JavaApp {
         System.out.println("Executed Successful!");
     }
 }
+
 
 
