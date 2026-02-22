@@ -29,9 +29,11 @@ public class Java2 {
     }
     public static void main(String[] args) {
         System.out.println("Hello World");
+        System.out.println("Program started");
         new Java2().meth1();
         new Java2().meth2();
         new Java2().meth3();
         new Java2().meth4();
     }
 }
+
