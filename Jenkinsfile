@@ -13,6 +13,7 @@ pipeline {
             steps {
                 echo "Compiling Java code..."
                 bat 'javac Java1.java'
+                bat 'javac Java2.java'
             }
         }
 
@@ -20,9 +21,11 @@ pipeline {
             steps {
                 echo "Running Java program..."
                 bat 'java Java1'
+                bat 'java Java2'
             }
         }
 
     }
 }
+
 
