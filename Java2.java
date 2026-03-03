@@ -34,6 +34,8 @@ public class Java2 {
         new Java2().meth2();
         new Java2().meth3();
         new Java2().meth4();
+        System.out.println("Program Ends Here");
     }
 }
+
 
